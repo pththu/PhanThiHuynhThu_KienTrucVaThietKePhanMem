@@ -1,0 +1,10 @@
+package state;
+
+public class GiamDoc implements StateChucVu{
+
+	@Override
+	public void inNhiemVu() {
+		System.out.println("Lam giam doc");
+	}
+
+}

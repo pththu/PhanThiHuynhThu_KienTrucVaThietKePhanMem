@@ -1,0 +1,8 @@
+package state;
+
+public class StateMainTest {
+	public static void main(String[] args) {
+		NhanVien nhanVien = new NhanVien(1, "Huynh thu", new StateGiamDoc());
+		nhanVien.showDuty();
+	}
+}

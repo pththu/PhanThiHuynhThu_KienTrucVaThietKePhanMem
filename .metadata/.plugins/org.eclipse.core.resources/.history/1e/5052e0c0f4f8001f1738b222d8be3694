@@ -1,0 +1,11 @@
+package state;
+
+public class NhanVien implements StateChucVu{
+
+	@Override
+	public void inNhiemVu() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
