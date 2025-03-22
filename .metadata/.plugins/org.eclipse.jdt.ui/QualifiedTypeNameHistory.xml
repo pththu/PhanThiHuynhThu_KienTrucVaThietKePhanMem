@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="normal.Employee"/>
     <fullyQualifiedTypeName name="normal.Position"/>
     <fullyQualifiedTypeName name="state.ChucVu"/>
@@ -11,4 +9,9 @@
     <fullyQualifiedTypeName name="state.StateKeToan"/>
     <fullyQualifiedTypeName name="state.StateGiamDoc"/>
     <fullyQualifiedTypeName name="state.StatePhoGiamDoc"/>
+    <fullyQualifiedTypeName name="composite.Item"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="composite.Product"/>
+    <fullyQualifiedTypeName name="composite.Table"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

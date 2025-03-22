@@ -1,0 +1,11 @@
+# Sử dụng Python 3.9 làm base image
+FROM python:3.9
+
+# Thiết lập biến môi trường
+ENV APP_ENV=development
+
+# Sao chép file app.py vào container
+COPY app.py /app.py
+
+# Chạy ứng dụng Python
+CMD ["python", "/app.py"]

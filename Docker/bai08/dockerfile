@@ -1,0 +1,13 @@
+# Sử dụng PostgreSQL 15 làm base image
+FROM postgres:15
+
+# Thiết lập biến môi trường cho PostgreSQL
+ENV POSTGRES_USER=postgre
+ENV POSTGRES_PASSWORD=sapassword
+ENV POSTGRES_DB=default_db
+
+# Sao chép file SQL vào thư mục khởi tạo của PostgreSQL
+COPY init.sql /docker-entrypoint-initdb.d/
+
+# Cổng mặc định PostgreSQL
+EXPOSE 5432

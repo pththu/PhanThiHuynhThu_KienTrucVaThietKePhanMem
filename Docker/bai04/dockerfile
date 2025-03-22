@@ -1,0 +1,11 @@
+# Sử dụng Nginx làm base image
+FROM nginx:latest
+
+# Copy file HTML vào thư mục phục vụ web
+COPY static /usr/share/nginx/html
+
+# Mở cổng 80
+EXPOSE 80
+
+# Chạy Nginx
+CMD ["nginx", "-g", "daemon off;"]

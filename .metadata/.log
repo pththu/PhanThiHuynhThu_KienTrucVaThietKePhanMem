@@ -381,3 +381,160 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-03-04 20:26:02.961
 !MESSAGE [C4E] Internal server stopped: true
+!SESSION 2025-03-11 19:25:18.325 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-11 19:25:24.149
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-11 19:25:25.944
+!MESSAGE Logback config file: T:\study\iuh\code\hk8_code\kienTrucThietKePhanMem\PhanThiHuynhThu_KienTrucVaThietKePhanMem\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-03-11 19:25:34.869
+!MESSAGE [C4E] Copilot API proxy: native mode
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-11 19:25:35.698
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HP'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-03-11 19:25:37.063
+!MESSAGE Starting Copilot4Eclipse
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-03-11 19:25:37.135
+!MESSAGE [Chat} EdgeDataDir: T:\study\iuh\code\hk8_code\kienTrucThietKePhanMem\PhanThiHuynhThu_KienTrucVaThietKePhanMem\.metadata\.plugins\com.genuitec.copilot4eclipse\edgedata
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2025-03-11 19:25:42.516
+!MESSAGE Timeout while checking Copilot status
+!SESSION 2025-03-11 19:37:25.426 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-11 19:37:29.784
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-11 19:37:31.466
+!MESSAGE Logback config file: T:\study\iuh\code\hk8_code\kienTrucThietKePhanMem\PhanThiHuynhThu_KienTrucVaThietKePhanMem\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-03-11 19:37:38.508
+!MESSAGE [C4E] Copilot API proxy: native mode
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-11 19:37:39.873
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HP'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-03-11 19:37:40.930
+!MESSAGE Starting Copilot4Eclipse
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-03-11 19:37:41.010
+!MESSAGE [Chat} EdgeDataDir: T:\study\iuh\code\hk8_code\kienTrucThietKePhanMem\PhanThiHuynhThu_KienTrucVaThietKePhanMem\.metadata\.plugins\com.genuitec.copilot4eclipse\edgedata
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2025-03-11 19:37:43.886
+!MESSAGE Timeout while checking Copilot status
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:41:32.929
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:41:32.939
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-03-11 19:41:52.341
+!MESSAGE [C4E] Conversation persistence: T:/study/iuh/code/hk8_code/kienTrucThietKePhanMem/PhanThiHuynhThu_KienTrucVaThietKePhanMem/.metadata/.plugins/com.genuitec.copilot4eclipse/chatdata
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-03-11 19:41:52.662
+!MESSAGE [C4E] Internal server started: true uri: http://localhost:56717/chat
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-03-11 19:41:57.378
+!MESSAGE [C4E] Workspace labels: java,maven
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:42:22.827
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:42:22.832
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:48:48.826
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:48:48.833
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:54:58.184
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:54:58.189
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:55:10.549
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:55:10.553
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:55:28.883
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:55:28.887
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:56:12.488
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:56:12.491
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:56:20.698
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:56:20.701
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:56:30.693
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:56:30.696
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:56:34.143
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:56:34.146
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:56:48.748
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:56:48.751
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:57:03.924
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:57:03.927
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:58:27.630
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-11 19:58:27.633
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-03-11 20:20:26.338
+!MESSAGE [C4E] Internal server stopped: Server@545c94f4{STOPPED}[10.0.20,sto=0]
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-03-11 20:20:26.340
+!MESSAGE [C4E] Internal server stopped: true

@@ -1,0 +1,19 @@
+# Sử dụng Golang làm base image
+FROM golang:1.20 AS build
+
+# Đặt thư mục làm việc
+WORKDIR /app
+
+# Copy source code vào container
+COPY . .
+
+# Build ứng dụng
+RUN go build -o app
+
+# Tạo image nhỏ gọn để chạy ứng dụng
+FROM alpine:latest
+WORKDIR /root/
+COPY --from=build /app/app .
+
+# Chạy ứng dụng khi container khởi động
+CMD ["./app"]

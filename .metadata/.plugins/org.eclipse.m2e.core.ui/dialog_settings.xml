@@ -48,7 +48,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="PositionEmployee"/>
+			<item value="DesignPattern"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

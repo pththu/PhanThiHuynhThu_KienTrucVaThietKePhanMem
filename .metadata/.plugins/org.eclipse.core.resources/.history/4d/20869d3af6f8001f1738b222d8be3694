@@ -1,7 +1,0 @@
-package state;
-
-public class NhanVien {
-	private int id;
-	private String name;
-	private StateChucVu stateChucVu;
-}

@@ -1,0 +1,23 @@
+# Sử dụng Node.js 18-alpine làm base image
+FROM node:18-alpine AS build
+
+# Đặt thư mục làm việc
+WORKDIR /app
+
+# Copy file và cài đặt dependencies
+COPY package.json package-lock.json ./
+RUN npm install
+
+# Copy toàn bộ code vào container và build ứng dụng
+COPY . .
+RUN npm run build
+
+# Sử dụng nginx để phục vụ ứng dụng
+FROM nginx:latest
+COPY --from=build /app/dist /usr/share/nginx/html
+
+# Mở cổng 80
+EXPOSE 80
+
+# Chạy Nginx
+CMD ["nginx", "-g", "daemon off;"]
