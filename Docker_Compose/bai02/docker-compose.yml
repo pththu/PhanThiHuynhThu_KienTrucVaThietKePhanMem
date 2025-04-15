@@ -1,0 +1,17 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_container
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root        # Mật khẩu của user root
+      MYSQL_USER: user                 # Tạo user mới
+      MYSQL_PASSWORD: sapassword       # Mật khẩu cho user mới
+      MYSQL_DATABASE: bai02_dockercompose            # Tạo database mặc định
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:

@@ -1,3 +1,16 @@
 /.metadata/
 .metadata/
 .metadata/
+
+# Bỏ qua thư mục node_modules trong tất cả các thư mục
+node_modules/
+
+# Bỏ qua file .env trong tất cả các thư mục
+.env
+
+# Bỏ qua các file log (nếu có)
+*.log
+
+# Bỏ qua các file hoặc thư mục khác không cần thiết (tuỳ chọn)
+dist/
+build/

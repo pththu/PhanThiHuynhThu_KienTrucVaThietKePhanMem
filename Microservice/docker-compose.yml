@@ -1,0 +1,47 @@
+services:
+  api-gateway:
+    build: ./api-gateway
+    ports:
+      - "2101:2101"
+    depends_on:
+      - product-service
+      - order-service
+      - customer-service
+    environment:
+      - PORT=2101
+
+  product-service:
+    build: ./productService
+    ports:
+      - "2102:2102"
+    environment:
+      - DB_HOST=dpg-cvv1od0gjchc73c1ahk0-a.singapore-postgres.render.com
+      - DB_USER=sa
+      - DB_NAME=microservice_thuchanh_huynhthu
+      - DB_PASSWORD=KXCBgeqLJFVmhipLcwnulLEYBoSRV9zt
+      - DB_PORT=5432
+      - PORT=2102
+
+  order-service:
+    build: ./orderService
+    ports:
+      - "2103:2103"
+    environment:
+      - DB_HOST=dpg-cvv1od0gjchc73c1ahk0-a.singapore-postgres.render.com
+      - DB_USER=sa
+      - DB_NAME=microservice_thuchanh_huynhthu
+      - DB_PASSWORD=KXCBgeqLJFVmhipLcwnulLEYBoSRV9zt
+      - DB_PORT=5432
+      - PORT=2103
+
+  customer-service:
+    build: ./customerService
+    ports:
+      - "2104:2104"
+    environment:
+      - DB_HOST=dpg-cvv1od0gjchc73c1ahk0-a.singapore-postgres.render.com
+      - DB_USER=sa
+      - DB_NAME=microservice_thuchanh_huynhthu
+      - DB_PASSWORD=KXCBgeqLJFVmhipLcwnulLEYBoSRV9zt
+      - DB_PORT=5432
+      - PORT=2104
