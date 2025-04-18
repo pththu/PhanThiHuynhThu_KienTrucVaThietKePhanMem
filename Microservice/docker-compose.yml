@@ -7,8 +7,12 @@ services:
       - product-service
       - order-service
       - customer-service
+      - payment-service
+      - inventory-service
+      - shipping-service
     environment:
       - PORT=2101
+    restart: always
 
   product-service:
     build: ./productService
@@ -21,6 +25,7 @@ services:
       - DB_PASSWORD=KXCBgeqLJFVmhipLcwnulLEYBoSRV9zt
       - DB_PORT=5432
       - PORT=2102
+    restart: always
 
   order-service:
     build: ./orderService
@@ -33,6 +38,7 @@ services:
       - DB_PASSWORD=KXCBgeqLJFVmhipLcwnulLEYBoSRV9zt
       - DB_PORT=5432
       - PORT=2103
+    restart: always
 
   customer-service:
     build: ./customerService
@@ -45,3 +51,43 @@ services:
       - DB_PASSWORD=KXCBgeqLJFVmhipLcwnulLEYBoSRV9zt
       - DB_PORT=5432
       - PORT=2104
+    restart: always
+
+  payment-service:
+    build: ./paymentService
+    ports:
+      - "2105:2105"
+    environment:
+      - DB_HOST=dpg-cvv1od0gjchc73c1ahk0-a.singapore-postgres.render.com
+      - DB_USER=sa
+      - DB_NAME=microservice_thuchanh_huynhthu
+      - DB_PASSWORD=KXCBgeqLJFVmhipLcwnulLEYBoSRV9zt
+      - DB_PORT=5432
+      - PORT=2105
+    restart: always
+
+  inventory-service:
+    build: ./inventoryService
+    ports:
+      - "2106:2106"
+    environment:
+      - DB_HOST=dpg-cvv1od0gjchc73c1ahk0-a.singapore-postgres.render.com
+      - DB_USER=sa
+      - DB_NAME=microservice_thuchanh_huynhthu
+      - DB_PASSWORD=KXCBgeqLJFVmhipLcwnulLEYBoSRV9zt
+      - DB_PORT=5432
+      - PORT=2106
+    restart: always
+
+  shipping-service:
+    build: ./shippingService
+    ports:
+      - "2107:2107"
+    environment:
+      - DB_HOST=dpg-cvv1od0gjchc73c1ahk0-a.singapore-postgres.render.com
+      - DB_USER=sa
+      - DB_NAME=microservice_thuchanh_huynhthu
+      - DB_PASSWORD=KXCBgeqLJFVmhipLcwnulLEYBoSRV9zt
+      - DB_PORT=5432
+      - PORT=2107
+    restart: always
